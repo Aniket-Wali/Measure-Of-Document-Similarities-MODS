@@ -2,7 +2,7 @@ import pymysql as py
 import pandas as pd
 import matplotlib as mplot
 
-con = py.connect('127.0.0.1', 'root', '', 'ICT')
+con = py.connect('DB_HOST', 'DB_USER', 'DB_PASSWORD', 'DB_NAME')
 cur = con.cursor()
 
 
